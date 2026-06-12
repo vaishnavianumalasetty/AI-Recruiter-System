@@ -65,7 +65,7 @@ model = load_model()
 def load_candidates():
 
     with open(
-        "dataset/sample_candidates.json",
+        "sample_candidates.json",
         "r",
         encoding="utf-8"
     ) as file:
